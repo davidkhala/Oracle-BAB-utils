@@ -21,6 +21,6 @@ copy /b out32dll\ssleay32.lib C:\OpenSSL-Win64\lib
 copy /b out32dll\libeay32.lib C:\OpenSSL-Win64\lib
 copy /b out32dll\ssleay32.dll C:\OpenSSL-Win64\bin
 copy /b out32dll\libeay32.dll C:\OpenSSL-Win64\bin
-copy /b out32dll\op`enssl.exe C:\OpenSSL-Win64\bin
+copy /b out32dll\openssl.exe C:\OpenSSL-Win64\bin
 copy /b C:\OpenSSL-Win64\bin\libeay32.dll C:\Windows\System32\libeay32.dll
 copy /b C:\OpenSSL-Win64\bin\ssleay32.dll C:\Windows\System32\ssleay32.dll
