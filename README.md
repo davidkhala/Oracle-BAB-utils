@@ -1,17 +1,19 @@
-# About [PROJECT NAME]
-&lt;Describe your project and who it is for&gt;
+# About Oracle Blockchain App Builder Utilities
+
+Oracle Blockchain App Builder Utilities is a collection of helpers along the usage lifecycle 
 
 ## Installation
-&lt;Installation instructions go here&gt;
+N/A
 
 ## Documentation
-&lt;Links to documentation go here&gt;
+
 
 ## Examples
-&lt;Describe where to find examples&gt;
+
 
 ## Help
-&lt;Instructions on where to get help go here&gt;
+Please create issue to this project
+
 
 ## Contributing
 See [CONTRIBUTING](./CONTRIBUTING.md) for details.
