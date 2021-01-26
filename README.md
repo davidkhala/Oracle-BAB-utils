@@ -3,7 +3,7 @@
 Oracle Blockchain App Builder Utilities is a collection of helpers along the usage lifecycle 
 
 ## Installation
-- [BAB housekeep for itself](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/usingoci/troubleshoot-blockchain-app-builder.html)
+- [BAB self-housekeep as VSCode extension](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/usingoci/troubleshoot-blockchain-app-builder.html)
   - **Repatching**: manually force the Blockchain App Builder to patch.
     - `Oracle Blockchain Platform Enable Repatching`
   - **Resetting Extension Data**: clean corrupted user data
