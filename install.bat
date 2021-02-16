@@ -7,7 +7,7 @@ cd openssl-1.0.2u
 
 perl Configure VC-WIN64A –prefix=C:\OpenSSL-Win64
 ms\do_win64a
-nmake -f ms\ntdll.mak          
+nmake -f ms\ntdll.mak          This can take up to 15 minutes to complete.
 cd out32dll
 ..\ms\test
 cd ..
