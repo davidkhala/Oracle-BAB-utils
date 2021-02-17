@@ -5,7 +5,7 @@ tar -xf openssl-1.0.2u.tar.gz
 cd openssl-1.0.2u
 
 
-perl Configure VC-WIN64A –prefix=C:\OpenSSL-Win64
+perl Configure VC-WIN64A -prefix=C:\OpenSSL-Win64
 ms\do_win64a
 nmake -f ms\ntdll.mak
 cd out32dll
