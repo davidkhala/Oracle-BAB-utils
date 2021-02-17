@@ -1,15 +1,14 @@
-
-npm install --global windows-build-tools
+call npm install --global windows-build-tools
 curl https://www.openssl.org/source/old/1.0.2/openssl-1.0.2u.tar.gz --output openssl-1.0.2u.tar.gz
 tar -xf openssl-1.0.2u.tar.gz
 cd openssl-1.0.2u
 
 
 perl Configure VC-WIN64A -prefix=C:\OpenSSL-Win64
-ms\do_win64a
+call ms\do_win64a
 nmake -f ms\ntdll.mak
 cd out32dll
-..\ms\test
+call ..\ms\test
 cd ..
 md C:\OpenSSL-Win64
 md C:\OpenSSL-Win64\bin
