@@ -1,5 +1,5 @@
 
-
+npm install --global windows-build-tools
 curl https://www.openssl.org/source/old/1.0.2/openssl-1.0.2u.tar.gz --output openssl-1.0.2u.tar.gz
 tar -xf openssl-1.0.2u.tar.gz
 cd openssl-1.0.2u
