@@ -2,11 +2,13 @@
 
 Oracle Blockchain App Builder Utilities is a collection of helpers along the usage lifecycle 
 
-## WIP Preinstall
-Node v10.18.1 or later (tested with 10.22.1)
-npm v6.x (tested with 6.13.4)
-Perl v5.x (tested with ActiveState Perl 5.28)
-Install Windows Build Tools in a powershell with administrative access. npm install --global windows-build-tools
+## Preinstall
+- Node v12
+- npm v6.x (tested with 6.13.4)
+- macos
+  - `sudo xcode-select --install`
+- `sudo npm install -g ./oracle-ochain-cli-22.4.3.tgz`
+- Install Windows Build Tools in a powershell with administrative access. npm install --global windows-build-tools
 If you are developing Go smart contracts, install Go v1.14
 Visual Studio Build tool 2019 with C/C++ default tool set
 
